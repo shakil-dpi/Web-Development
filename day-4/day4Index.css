@@ -1,0 +1,113 @@
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    background: aqua;
+}
+.logo{
+    padding: 20px;
+    float: left;
+}
+
+
+.logo img{
+    width: 70%;
+    height: 50%;
+
+}
+
+.menu{
+    float: right;
+    padding-top: 15px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.menu ul li a:hover{
+    background: green;
+    padding: 5px;
+    color: white;
+    
+}
+/* Header Part End */
+/* Header Part Start */
+
+.slider{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background:  linear-gradient(rgba(27, 97, 114, 0.8),rgba(218, 210, 210, 0.6)), url(./image/logo1.png);
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-position:  center;
+}
+.slider h1{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    color: white;
+    font-size: 60;
+}
+.slider p{
+    position: absolute;
+    top: 68%;
+    left: 44%;
+    color: white;
+    text-align: center;
+    
+}
+.slider a{
+    position: absolute;
+    top: 85%;
+    left: 44%;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    padding: 10px 25px;
+    color: red;
+    font-style: 25px;
+    background-color: yellow;
+    background-repeat: 20px;
+}
+/* Header Part End */
+/* Hero Part Start*/
+.hero{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+span{
+    color: tomato;
+}
+.card{
+    text-align: 20px;
+    padding: 20px;
+    background-color: rgb(249, 29, 73);
+    text-align: center;
+    border-radius: 20px;
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(76, 12, 214);
+    border-radius: 50%;
+}
+.servic-titel{
+    text-align: center;
+    margin: 20px;
+
+}
+.services-box{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,auto));
+    gap: 20px;
+}
+/* Hero Part End*/
