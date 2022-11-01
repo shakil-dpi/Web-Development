@@ -1,0 +1,243 @@
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    background: aqua;
+
+}
+.logo{
+    padding: 20px;
+    float: left;
+}
+
+
+.logo img{
+    width: 70%;
+    height: 50%;
+
+}
+
+.menu{
+    float: right;
+    padding-top: 15px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    padding-right: 20px;
+    color: black;
+}
+/* 
+.menu ul li a:hover{
+    background: green;
+    padding: 5px;
+    color: white;
+    
+} */
+/* Header Part End */
+/* Header Part Start */
+
+.slider{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background:  linear-gradient(rgba(27, 97, 114, 0.8),rgba(218, 210, 210, 0.6)), url(./image/logo1.png);
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-position:  center;
+}
+.slider h1{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    color: white;
+    font-size: 60;
+}
+.slider p{
+    position: absolute;
+    top: 68%;
+    left: 44%;
+    color: white;
+    text-align: center;
+    
+}
+.slider a{
+    position: absolute;
+    top: 85%;
+    left: 44%;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    padding: 10px 25px;
+    color: red;
+    font-style: 25px;
+    background-color: yellow;
+    background-repeat: 20px;
+    border-radius: 20px; 
+}
+/* Header Part End */
+/* Hero Part Start*/
+.hero{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+span{
+    color: rgb(199, 110, 94);
+}
+.card{
+    text-align: 20px;
+    padding: 20px;
+    background-color: rgb(249, 29, 73);
+    text-align: center;
+    border-radius: 20px;
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(76, 12, 214);
+    border-radius: 50%;
+}
+.servic-titel{
+    text-align: center;
+    margin: 20px;
+
+}
+.services-box{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,auto));
+    gap: 20px;
+}
+.card a{
+    border: 1px solid tomato;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.card a:hover{
+    color: white;
+    background: rgb(0, 0, 0);
+}
+.animate{
+    /* animation: 5s mov linear infinite; */
+    position: relative;
+}
+@keyframes mov{
+   /* from{
+        background-color: blueviolet;
+
+    }
+
+
+        to{
+            background-color: rgb(140, 214, 70);
+        }*/
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+/* Hero Part End*/
+/* footer part start*/
+footer{
+    width: 1200px;
+    margin: 0px;
+}
+.footer-main{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(380px,auto));
+    gap:5px;
+}
+.block img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top:5px;
+    padding-right: 10px;
+}
+.block{
+    text-align: center;
+    padding: 10px;
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(180px,auto));
+}
+.block a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(238, 215, 211);
+}
+.block a:hover{
+    color: white;
+    background-color: rgb(209, 249, 6);
+}
+/* .social a{
+    position: relative;
+    left: 30%;
+} */
+.social h3{
+    text-align: center;
+}
+.social img{
+    position: relative;
+    top: 15%;
+}
+
+/* footer part endt*/
+.icon{
+    width: 25px;
+    font-size: 10px;
+}
+
+
+
+
+
+/*--------Extra Footer Part Start */
+.exta-footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+.extra-footer-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(33%,auto));
+    gap: .3%;
+}
+.extra-footer-card{
+    background-color: blanchedalmond;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(10%,auto));
+   
+}
+.extra-footer-card img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 7px;
+    margin-right: 7px;
+}
+.extra-footer-card a{
+    text-decoration: none;
+    font-size: 20px;
+    color: tomato;
+    font-weight: 800;
+   position: relative;
+   left: 30%;
+}
+.extra-footer-card h2{
+    text-align: center;
+    color: tomato;
+}
+.box img{
+    border: 1px solid rgb(170, 28, 15);
+    padding: 5px;
+}
+/*--------Extra Footer Part End */

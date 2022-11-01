@@ -1,0 +1,41 @@
+/* --------Responsive part start------- */
+    .header{
+        width: 100%;
+        background: yellow;
+    }
+    .logo{
+        padding: 0px;
+    }
+    
+    
+    .logo img{
+        width: 50%;
+        height: 50%;
+    }
+    
+    .menu{
+        padding-top: 10px;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        font-size: 13px;
+        padding-right: 10px;
+        
+    }
+    .slider{
+        width: 100%;
+    }
+    .slider h1{
+        top: 40%;
+        color: rgb(153, 15, 15);
+        font-size: 40px;
+    }
+    .slider p{
+        position: absolute;
+        top: 53%;
+        
+    }
+    .slider a{
+        top: 68%;
+    }
+/* --------Responsive part end------- */
