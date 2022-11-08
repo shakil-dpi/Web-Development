@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./assets/images/background.gif) center;
+}
+.cont{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 10px;
+}
+/*common css end*/
+/* heder part start*/
+.topbar{
+    background: purple;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    border-bottom: 1px solid red;
+}
+.top_right p{
+   display: inline-block;
+    border-right: 1px solid whitesmoke;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.top_right a{
+    color: #fff;
+    text-decoration: none;
+}
+/* heder part end*/
+/*logo part start*/
+.logo{
+    height: 110px;
+}
+.logo_left{
+    
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 45px;
+}
+.logo_search input{
+    width: 65%;
+    padding: 5.bupx;
+    font-size: 12px;
+}
+button{
+    font-size: 10px;
+    padding: 3px 6px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.logo1{
+    border-right: 1px solid rgb(28, 153, 236);
+    padding-right: 5px;
+}
+.logo2{
+    padding-left: 5px;
+
+}
+.logo_right{
+    padding-top: 30px;
+}
+/*logo part end*/
+/* Hero Main Part Start*/
+.banner{
+    border: 2px solid red;
+    padding: 10px;
+}
+.slider{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.slider img{
+   height: 170px;
+}
+
+/* Hero Main Part Start*/
