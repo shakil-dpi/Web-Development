@@ -1,0 +1,79 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.slider{
+    position: absolute;
+}
+.logo{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.menu-1{
+    margin-top: 300px;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+}
+.menu-1 li a{
+    text-decoration: none;
+    padding: 15px 10px;
+    font-size: 22px;
+    color: red;
+}
+.menu-1 li a:hover{
+    background: #102b0e;
+    color: rgb(228, 232, 235);
+}
+.search_bar{
+    width: 300px;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px 0 5px 2px;
+    margin-right: .5rem;
+}
+.search_button{
+    margin-right: 1.5rem;
+    padding: 4px 10px 3px 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.hero-bottom{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.hero-bottom img{
+    margin-top: -35px;
+}
+
+
+
+footer{
+    background: #504f4f;
+    padding: 2rem 6rem 0 6rem;
+    color: #fff;
+}
+.f-right{
+    color: #fff;
+}
+.f-right ul li{
+    list-style: circle;
+}
+.upper_footer{
+    padding: 2rem 4rem 7rem 10rem;
+}
+.f-left ul{
+    list-style-image: url(./assets/images/contact.png);
+}
+.f-right ul li a, .f-left ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.lower_footer{
+    background: #272727;
+    color: #fff;
+    padding: 1rem 6rem 0 6rem;
+}
